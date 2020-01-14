@@ -1,0 +1,14 @@
+class Example
+{
+   public static void main(String[] args)
+   {
+   Integer i1 = Integer.valueOf("101011",2);
+   Double  d1 = Double.valueOf("12.3");
+   int a = Integer.parseInt("143");
+   int c = i1.intValue();
+   System.out.println("i1 = "+i1);
+   System.out.println("d1 = "+d1);
+   System.out.println("a = "+a);
+   System.out.println("c = "+c);
+   }
+}
